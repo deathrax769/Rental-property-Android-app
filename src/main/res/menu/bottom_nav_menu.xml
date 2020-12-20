@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapsActivity"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Map"/>
+    <item
+        android:id="@+id/listView"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="List" />
+
+    <item
+        android:id="@+id/addProperty"
+        android:icon="@drawable/ic_baseline_cloud_upload_24"
+        android:title="Add property" />
+    <item
+        android:id="@+id/studentProfile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Settings" />
+
+</menu>

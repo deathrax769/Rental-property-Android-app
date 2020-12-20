@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "396344133628",
+    "firebase_url": "https://sturent-769.firebaseio.com",
+    "project_id": "sturent-769",
+    "storage_bucket": "sturent-769.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396344133628:android:64254b968a60edd6181479",
+        "android_client_info": {
+          "package_name": "com.example.sturent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396344133628-p3ev28tuc3s88510htj9j5kjkpu682di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyPHrhXXk4pt1AOzH9Hi-T0gnSIivFSvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396344133628-p3ev28tuc3s88510htj9j5kjkpu682di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396344133628:android:788baafef4155f5c181479",
+        "android_client_info": {
+          "package_name": "com.example.sturent1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396344133628-p3ev28tuc3s88510htj9j5kjkpu682di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyPHrhXXk4pt1AOzH9Hi-T0gnSIivFSvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396344133628-p3ev28tuc3s88510htj9j5kjkpu682di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

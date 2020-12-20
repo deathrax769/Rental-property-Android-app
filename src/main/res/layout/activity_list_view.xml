@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:background="#F0F0F0"
+    tools:context=".ListView"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List"
+            />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                app:contentPaddingRight="10dp"
+                app:contentPaddingLeft="10dp"
+                app:cardMaxElevation="15dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/display1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/antic"
+                        android:text="3BHK PG, TT NAGAR"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="14dp"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="331dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="58dp"
+                        app:srcCompat="@drawable/_28910181_3461663670596854_2777665928609722226_o"
+                        tools:layout_editor_absoluteX="-14dp"
+                        tools:layout_editor_absoluteY="-124dp"
+                        tools:srcCompat="@drawable/_28910181_3461663670596854_2777665928609722226_o" />
+
+                    <ImageView
+                        android:id="@+id/det1"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="143dp"
+                        android:layout_marginRight="143dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/disp1"
+                        tools:layout_editor_absoluteX="-14dp"
+                        tools:layout_editor_absoluteY="-124dp" />
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                app:contentPaddingRight="10dp"
+                app:contentPaddingLeft="10dp"
+                app:cardMaxElevation="15dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/display2">>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/antic"
+                        android:text="1BHK Flt, MP Nagar"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="14dp"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="331dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="144dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="77dp"
+                        app:srcCompat="@drawable/disp2"
+                        tools:srcCompat="@drawable/disp2" />
+
+                    <ImageView
+                        android:id="@+id/det2"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="143dp"
+                        android:layout_marginRight="143dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/disp1"
+                        tools:layout_editor_absoluteX="-14dp"
+                        tools:layout_editor_absoluteY="-124dp" />
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                app:contentPaddingRight="10dp"
+                app:contentPaddingLeft="10dp"
+                app:cardMaxElevation="15dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/display3">>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/antic"
+                        android:text="3BHK PG, TT NAGAR"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="14dp"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="331dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="58dp"
+                        app:srcCompat="@drawable/disp3"
+                        tools:layout_editor_absoluteX="-14dp"
+                        tools:layout_editor_absoluteY="-124dp"
+                        tools:srcCompat="@drawable/disp3" />
+
+                    <ImageView
+                        android:id="@+id/det3"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="143dp"
+                        android:layout_marginRight="143dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/disp1"
+                        tools:layout_editor_absoluteX="-14dp"
+                        tools:layout_editor_absoluteY="-124dp" />
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                app:contentPaddingRight="10dp"
+                app:contentPaddingLeft="10dp"
+                app:cardMaxElevation="15dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/display4">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/antic"
+                        android:text="3BHK PG, TT NAGAR"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="14dp"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="331dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="58dp"
+                        app:srcCompat="@drawable/disp4"
+                        tools:layout_editor_absoluteX="-14dp"
+                        tools:layout_editor_absoluteY="-124dp"
+                        tools:srcCompat="@drawable/disp4" />
+
+                    <ImageView
+                        android:id="@+id/det4"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="143dp"
+                        android:layout_marginRight="143dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/disp1"
+                        tools:layout_editor_absoluteX="-14dp"
+                        tools:layout_editor_absoluteY="-124dp" />
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:windowBackground"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
